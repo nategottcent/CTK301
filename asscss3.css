@@ -1,0 +1,34 @@
+.outlinep {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+#textid {
+    color: lightblue;
+    background-color: blue;
+}
+
+#paragraphid {
+        color: pink;
+        background-color: purple;
+}
+
+a {
+    color: #ff0000;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: #ffff00;
+  }   
+
+  .spanstyle {
+        color:#ff0000;
+  }
+
+  #divexample {
+        color:aquamarine;
+  }
