@@ -1,0 +1,41 @@
+.specialid {
+        background-color: plum
+}
+
+a {
+    color: green;
+  }
+
+  #blue {
+        color: blue;
+  }
+
+  .yellow {
+        background-color: yellow;
+  }
+
+  .red {
+        color: red;
+  }
+
+  #both {
+        color: red;
+        background-color: yellow;
+  }
+
+  #both2 {
+        color: yellow;
+        background-color: darkgreen;
+  }
+  
+  .green {
+        background-color: lightgreen;
+  }
+
+  .orange {
+        color: orange;
+  }
+
+  .darkblue {
+        color: darkblue;
+  }
