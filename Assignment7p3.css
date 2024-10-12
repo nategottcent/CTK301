@@ -1,0 +1,118 @@
+body {
+    background-color: grey;
+    
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid darkblue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+  }
+
+  h1 a{
+    grid-column: span 12;
+    padding: 10px;
+    border: 3px solid blue;
+    font-style: italic;
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white
+}
+
+  nav{
+    grid-column: span 12;
+    background-color: blue;
+}
+  
+  nav ul {
+     padding-left: 10px;
+}
+
+  nav li {
+    width: 220px;
+    list-style-type: none;
+    display: inline-block;
+    
+  }
+  
+  nav li a {
+    display: block;
+    background-color: blue;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  .floatimg {
+    float: left;
+    padding: 10px;
+    width: 275px;
+}
+
+.floatimg2 {
+    padding: 10px;
+    width: 275px;
+}
+
+.floatimg3 {
+    float: right;
+    padding: 10px;
+   
+    width: 275px;
+}
+
+ 
+ header {
+    grid-column: span 12;
+    background-color: blue;
+  }
+
+  
+
+  footer {
+    grid-column: span 12;
+    padding: 10px;
+    background-color: red;
+    border-top: 3px solid darkblue;
+    
+  }
+
+  h2 {
+   border-bottom: 3px solid rgb(95,140,255);
+    color: rgb(95, 140, 255);
+    
+}
+  
+  div {
+    grid-column: span 4;
+    padding: 10px;
+    margin: 10px
+}
+
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+ a:hover {
+    color: blue;
+}
+
+.class {
+    padding: 10px
+}

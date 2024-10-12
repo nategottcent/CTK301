@@ -1,0 +1,121 @@
+body {
+    background-color: grey;
+    
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid darkblue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto auto auto;
+  }
+
+  h1 a{
+    grid-column: span 10;
+    padding: 10px;
+    border: 3px solid blue;
+    font-style: italic;
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: white
+}
+
+  nav{
+    grid-column: span 10;
+    background-color: blue;
+}
+  
+  nav ul {
+     padding-left: 10px;
+}
+
+  nav li {
+    width: 220px;
+    list-style-type: none;
+    display: inline-block;
+    
+  }
+  
+  nav li a {
+    display: block;
+    background-color: blue;
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  .floatimg {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+  }
+
+  .para {
+    padding-left: 10px;
+    
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  header {
+    grid-column: span 10;
+    background-color: blue;
+  }
+
+  
+
+  footer {
+    grid-column: span 10;
+    padding: 10px;
+    background-color: red;
+    border-top: 3px solid darkblue;
+    
+  }
+
+  h2 {
+   border-bottom: 3px solid rgb(95,140,255);
+    color: rgb(95, 140, 255);
+    
+    
+  }
+  
+  #welcome {
+     grid-column: span 4;
+    background-color: lightblue;
+    padding: 10px
+  }
+
+  #another {
+     grid-column: span 5;
+    padding-left: 10px
+}
+
+  main {
+    grid-column: span 6;
+  }
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+ a:hover {
+    color: blue;
+}
