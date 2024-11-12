@@ -15,6 +15,17 @@ body {
 
 header {
   grid-column: span 12;
+  margin-bottom: 24px;
+  border: 2px solid #0B58E8;
+  background-color: #0B58E8;
+  border-radius: 10px;
+}
+
+
+.font {
+  font-family: Orbitron;
+  font-weight: bold;
+  src: url('orbitron-black.otf');
 }
 
 h1 {
@@ -29,7 +40,7 @@ h1 {
 nav ul {
   padding: 0;
   margin: 0;
-}
+}    
 
 nav li {
   background-color: #0B58E8;
@@ -38,6 +49,9 @@ nav li {
   text-transform: uppercase;
   padding: 24px;
   margin-bottom: 24px;
+  border: 2px solid #0B58E8;
+  background-color: #0B58E8;
+  border-radius: 10px;
 }
 
 nav li a {
@@ -47,10 +61,13 @@ nav li a {
   text-decoration: none;
 }
 
+
+
 #mainimg {
   float: right;
   grid-column: span 1;
   width: 500%;
+  border-radius: 10px;
 }
 
 main {
@@ -82,4 +99,13 @@ footer {
   font-size: 32px;
   font-weight: bold;
   text-align: left;
+  border: 2px solid #0B58E8;
+  background-color: #0B58E8;
+  border-radius: 10px;
+}
+
+.bi {
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
