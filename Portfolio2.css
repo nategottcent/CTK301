@@ -57,6 +57,7 @@ body {
   
   nav li a {
     color: white;
+    padding: 20px;
     font-weight: bold;
     font-size: 32px;
     text-decoration: none;
